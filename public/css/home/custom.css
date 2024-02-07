@@ -1,0 +1,26 @@
+@import url('main.css');
+
+:root{
+    scroll-behavior: smooth;
+    /* basecolor */
+    --caribbean-green: #4aca9f;
+    --black-caribbean-green: #1a4d3c;
+    --common-teal: #12a38b;
+    --tea-green:#adf0a6;
+    --costum-black: #292b46;
+}
+
+.btn-daftar{
+    padding: 10px 20px;
+    background: var(--caribbean-green);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    text-align: end;
+}
+.btn-daftar:hover{
+    background: var(--tea-green);
+}
